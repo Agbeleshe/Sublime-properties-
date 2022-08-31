@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+button{
+    margin: 5%;
+    padding:20px;
+    height: 60px;
+    border: none;
+    background-color:rgb(17, 15, 15) ;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 15%;
+}
+
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.sub_a img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5%;
+    margin: 20px;
+    margin-top: 25%;
+}
+
+
+.sub1{
+    padding: 10px;
+    margin: 5%;
+}
+
+.sub2{
+    padding: 30px;
+    margin: 5%;
+    display: flex;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue
+}
+
+.sub1 .sub_a{
+    display: flex;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue
+}
+
+/* navigation bar */
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px 1px gainsboro;
+}
+
+.navbar ul li{
+    padding: 20px;
+}
+
+.aside {
+    margin-right: 60%;
+}
+
+.aside img {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+
+/* containers */
+
+.container{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.container .sub1 .sub_a:hover{
+    background-color: burlywood;
+}
+
+button:hover{
+    transition: all;
+    transform: scale(2.5em);
+}
+
+
+
+/* footer */
+.main-footer{
+    display: flex;
+    padding: 5%;
+    margin-left: 100px;
+}
+
+.main-footer ul {
+    list-style: none;
+    color: white;
+}
+
+.main-footer ul a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.selection1{
+    width: 25%;
+    padding-right: 10%;
+}
+
+.selection1 ul li{
+    padding: 5%;
+}
+
+.selection1 ul li img{
+    margin-right: 30px;
+}
+
+.selection2{
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+.selection2  ul li{
+    margin-top: 40%;
+}
+
+.selection3{
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+.selection3  ul li{
+    margin-top: 40%;
+}
+
+.selection4 ul{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+}
+
+.selection4 ul li{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.742);
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#copy{
+    margin-left: 70%;
+    color: aliceblue;
+}
